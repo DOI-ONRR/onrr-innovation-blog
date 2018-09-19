@@ -14,6 +14,8 @@ class BlogPostTemplate extends React.Component {
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
 
+    console.log(post);
+
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -38,7 +40,15 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+(post.frontmatter.authors).map((author, index) => (
+      <div key={index}
+        style={{
+          display: 'flex',
+          marginBottom: rhythm(1),
+        }}
+      >
 
+  )
       <div
         style={{
           display: 'flex',
@@ -46,15 +56,18 @@ class BlogPostTemplate extends React.Component {
         }}
       >
         <img
-          src={post.frontmatter.author.pic}
-          alt={`Author profile pic`}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-          }}
-        />
+                src={author.pic}
+                alt={`Author profile pic`}
+                style={{
+                  marginRight: rhythm(1 / 2),
+                  marginBottom: 0,
+                  width: rhythm(2),
+                  height: rhythm(2),
+                }}
+              />
+            })
+        }
+
         <p
           style={{
             marginRight: rhythm(1 / 2),
@@ -110,6 +123,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        authors {
+          id
+          bio
+          pic
+        }
         author {
           id
           bio
