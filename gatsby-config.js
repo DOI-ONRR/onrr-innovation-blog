@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Innovation design at the Department of the Interior',
     author: 'Ryan Johnson',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    description: 'Our blog about data, design, and innovation at the Department of the Interior.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
   },
   pathPrefix: '/gatsby-starter-blog',
