@@ -38,7 +38,30 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+
+      <div
+        style={{
+          display: 'flex',
+          marginBottom: rhythm(1),
+        }}
+      >
+        <img
+          src={post.frontmatter.author.pic}
+          alt={`Author profile pic`}
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+        <p
+          style={{
+            marginRight: rhythm(1 / 2),
+          }}
+        ><strong>{post.frontmatter.author.id}</strong> is a {post.frontmatter.author.bio}
+        </p>
+      </div>
 
         <ul
           style={{
@@ -87,7 +110,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        author
+        author {
+          id
+          bio
+          pic
+        }
         date(formatString: "MMMM D, YYYY")
       }
     }
