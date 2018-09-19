@@ -7,7 +7,6 @@ module.exports = {
   },
   pathPrefix: '/gatsby-starter-blog',
   mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`,
     "MarkdownRemark.frontmatter.authors": `AuthorYaml`,
   },
   plugins: [

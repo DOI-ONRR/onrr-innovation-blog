@@ -47,14 +47,6 @@ class BlogPostTemplate extends React.Component {
           marginBottom: rhythm(1),
         }}
       >
-
-  )
-      <div
-        style={{
-          display: 'flex',
-          marginBottom: rhythm(1),
-        }}
-      >
         <img
                 src={author.pic}
                 alt={`Author profile pic`}
@@ -72,9 +64,10 @@ class BlogPostTemplate extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
           }}
-        ><strong>{post.frontmatter.author.id}</strong> is a {post.frontmatter.author.bio}
+        ><strong>{author.id}</strong> is a {author.bio}
         </p>
       </div>
+    )
 
         <ul
           style={{
@@ -114,7 +107,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -124,11 +116,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         authors {
-          id
-          bio
-          pic
-        }
-        author {
           id
           bio
           pic

@@ -1,6 +1,8 @@
 ---
 title: My Second Post!
-author: Ryan Johnson
+authors: 
+- Ryan Johnson
+- Jennifer Malcolm
 date: "2015-05-06T23:46:37.121Z"
 ---
 
