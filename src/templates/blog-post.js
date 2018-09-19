@@ -88,7 +88,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         author
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM D, YYYY")
       }
     }
   }
