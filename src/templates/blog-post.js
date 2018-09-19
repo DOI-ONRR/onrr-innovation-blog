@@ -40,7 +40,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-(post.frontmatter.authors).map((author, index) => (
+    (post.frontmatter.authors).map(author, index) => (
       <div key={index}
         style={{
           display: 'flex',
@@ -57,9 +57,6 @@ class BlogPostTemplate extends React.Component {
                   height: rhythm(2),
                 }}
               />
-            })
-        }
-
         <p
           style={{
             marginRight: rhythm(1 / 2),
