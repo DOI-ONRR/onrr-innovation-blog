@@ -6,6 +6,9 @@ module.exports = {
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
   },
   pathPrefix: '/gatsby-starter-blog',
+  mapping: {
+    "MarkdownRemark.frontmatter.author": `AuthorYaml`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
