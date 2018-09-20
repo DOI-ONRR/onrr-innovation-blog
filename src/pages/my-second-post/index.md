@@ -3,7 +3,8 @@ title: My Second Post!
 authors: 
 - Ryan Johnson
 - Jennifer Malcolm
-date: "2015-05-06T23:46:37.121Z"
+excerpt: This is a hello world post, testing the excerpt.
+date: "2015-05-06"
 ---
 
 Wow! I love blogging so much already.

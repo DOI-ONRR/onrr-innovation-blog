@@ -2,7 +2,8 @@
 title: New Beginnings
 authors: 
 - Ryan Johnson
-date: "2015-05-28T22:40:32.169Z"
+excerpt: This is a hello world post, testing the excerpt.
+date: "2015-05-28"
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
