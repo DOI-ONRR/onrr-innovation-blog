@@ -44,7 +44,6 @@ class BlogPostTemplate extends React.Component {
           <div key={index}
             style={{
               display: 'flex',
-              marginBottom: rhythm(1),
             }}
           >
             <img
