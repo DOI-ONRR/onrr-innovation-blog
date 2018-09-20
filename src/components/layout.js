@@ -46,11 +46,12 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'Lato, sans-serif',
+            fontWeight: '800',
             marginTop: 0,
-            marginBottom: rhythm(-1),
+            marginBottom: rhythm(3),
             textAlign: 'center',
           }}
         >
@@ -74,7 +75,7 @@ class Template extends React.Component {
                 }}
             />Innovation Design at the Department of the Interior
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (
