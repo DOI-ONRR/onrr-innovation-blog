@@ -14,8 +14,6 @@ class BlogPostTemplate extends React.Component {
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
 
-    console.log(post);
-
     return (
       <Layout location={this.props.location}>
         <Helmet
@@ -65,7 +63,6 @@ class BlogPostTemplate extends React.Component {
         </p>
       </div>
     )
-
         <ul
           style={{
             display: 'flex',
