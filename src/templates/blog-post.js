@@ -38,7 +38,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-    (post.frontmatter.authors).map(author, index) => (
+    (post.frontmatter.authors).map((author, index) => (
       <div key={index}
         style={{
           display: 'flex',
@@ -62,7 +62,7 @@ class BlogPostTemplate extends React.Component {
         ><strong>{author.id}</strong> is a {author.bio}
         </p>
       </div>
-    )
+    ))
         <ul
           style={{
             display: 'flex',
