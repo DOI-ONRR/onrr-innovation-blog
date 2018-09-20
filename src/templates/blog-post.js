@@ -38,31 +38,34 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-    (post.frontmatter.authors).map(author, index) => (
-      <div key={index}
-        style={{
-          display: 'flex',
-          marginBottom: rhythm(1),
-        }}
-      >
-        <img
-                src={author.pic}
-                alt={`Author profile pic`}
+        {
+          (post.frontmatter.authors).map( (author, index) => (
+            <div key={index}
+              style={{
+                display: 'flex',
+                marginBottom: rhythm(1),
+              }}
+            >
+              <img
+                      src={author.pic}
+                      alt={`Author profile pic`}
+                      style={{
+                        marginRight: rhythm(1 / 2),
+                        marginBottom: 0,
+                        width: rhythm(2),
+                        height: rhythm(2),
+                      }}
+                    />
+              <p
                 style={{
                   marginRight: rhythm(1 / 2),
-                  marginBottom: 0,
-                  width: rhythm(2),
-                  height: rhythm(2),
                 }}
-              />
-        <p
-          style={{
-            marginRight: rhythm(1 / 2),
-          }}
-        ><strong>{author.id}</strong> is a {author.bio}
-        </p>
-      </div>
-    )
+              ><strong>{author.id}</strong> is a {author.bio}
+              </p>
+            </div>
+          ))
+        }
+
         <ul
           style={{
             display: 'flex',
