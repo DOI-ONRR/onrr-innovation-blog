@@ -57,7 +57,7 @@ class Template extends React.Component {
           }}
         >
           <Link
-            css={{
+            style={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: '#086996',
