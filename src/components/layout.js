@@ -14,8 +14,8 @@ class Template extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(2),
-            fontWeight: '700',
+            ...scale(1.2),
+            fontWeight: '800',
             marginBottom: rhythm(1.5),
             marginTop: 0,
             display: 'block',
@@ -49,7 +49,7 @@ class Template extends React.Component {
       header = (
         <h2
           style={{
-            fontFamily: 'Lato, sans-serif',
+            ...scale(.5),
             fontWeight: '800',
             marginTop: 0,
             marginBottom: rhythm(3),
@@ -57,7 +57,7 @@ class Template extends React.Component {
           }}
         >
           <Link
-            style={{
+            css={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: '#086996',

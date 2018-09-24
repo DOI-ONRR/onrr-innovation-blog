@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import { rhythm } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
@@ -26,9 +26,9 @@ class BlogIndex extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3
+              <h2
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(-0.2),
                 }}
               >
                 <Link 
@@ -39,7 +39,7 @@ class BlogIndex extends React.Component {
                   to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
+              </h2>
               <small>{node.frontmatter.date}</small>
               <p>{node.frontmatter.excerpt}</p>
             </div>

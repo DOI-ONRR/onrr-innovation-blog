@@ -1,15 +1,17 @@
 import Typography from 'typography'
-import noriegaTheme from 'typography-theme-noriega'
+require('typeface-patua-one')
+require('typeface-lato')
 
-noriegaTheme.overrideThemeStyles = () => ({
-  'a.gatsby-resp-image-link': {
-    boxShadow: 'none',
-  },
+const typography = new Typography({
+  baseFontSize: "20px",
+  baseLineHeight: 1.45,
+  headerFontFamily: [
+    "Patua One",
+    "Georgia",
+    "serif",
+  ],
+  bodyFontFamily: ["Lato", "sans-serif"],
 })
-
-delete noriegaTheme.googleFonts
-
-const typography = new Typography(noriegaTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
