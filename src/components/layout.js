@@ -14,7 +14,8 @@ class Template extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.1),
+            ...scale(1.2),
+            fontWeight: '800',
             marginBottom: rhythm(1.5),
             marginTop: 0,
             display: 'block',
@@ -46,16 +47,17 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            ...scale(.5),
+            fontWeight: '800',
             marginTop: 0,
-            marginBottom: rhythm(-1),
+            marginBottom: rhythm(3),
             textAlign: 'center',
           }}
         >
           <Link
-            style={{
+            css={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: '#086996',
@@ -74,7 +76,7 @@ class Template extends React.Component {
                 }}
             />Innovation Design at the Department of the Interior
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (

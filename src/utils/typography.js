@@ -1,15 +1,17 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
+require('typeface-patua-one')
+require('typeface-lato')
 
-Wordpress2016.overrideThemeStyles = () => ({
-  'a.gatsby-resp-image-link': {
-    boxShadow: 'none',
-  },
+const typography = new Typography({
+  baseFontSize: "20px",
+  baseLineHeight: 1.45,
+  headerFontFamily: [
+    "Patua One",
+    "Georgia",
+    "serif",
+  ],
+  bodyFontFamily: ["Lato", "sans-serif"],
 })
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {

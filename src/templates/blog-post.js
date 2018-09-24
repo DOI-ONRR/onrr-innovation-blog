@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Bio from '../components/Bio'
 import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
@@ -21,7 +20,12 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1
+          style={{
+            ...scale(1.5),
+            fontWeight: 800,
+          }}
+        >{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),

@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import { rhythm } from '../utils/typography'
+import { rhythm, scale } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
@@ -26,17 +26,22 @@ class BlogIndex extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3
+              <h2
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(-0.2),
                 }}
               >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <Link 
+                  style={{ 
+                    boxShadow: 'none',
+                    textDecoration: 'none',
+                  }} 
+                  to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
+              </h2>
               <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p>{node.frontmatter.excerpt}</p>
             </div>
           )
         })}
@@ -65,6 +70,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM D, YYYY")
             title
+            excerpt
           }
         }
       }
