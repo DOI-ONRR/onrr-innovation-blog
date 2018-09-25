@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
+import './layout.css'
 import mastImage from './NRRD_blog_mast.png'
 
 class Template extends React.Component {

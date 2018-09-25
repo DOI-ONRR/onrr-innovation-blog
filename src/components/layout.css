@@ -1,0 +1,13 @@
+/* Links */
+a {
+  transition: color 0.5s ease;
+  color: #086996;
+}
+
+a:visited {
+  color: #1478a6;
+}
+
+a:hover {
+  color: #79bbda;
+}
