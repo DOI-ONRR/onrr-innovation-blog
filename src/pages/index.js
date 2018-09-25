@@ -40,7 +40,11 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h2>
-              <small>{node.frontmatter.date}</small>
+              <small
+                style={{
+                  color: '#768d99',
+                }}
+              >{node.frontmatter.date}</small>
               <p>{node.frontmatter.excerpt}</p>
             </div>
           )
