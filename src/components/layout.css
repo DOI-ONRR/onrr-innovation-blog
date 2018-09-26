@@ -11,3 +11,8 @@ a:visited {
 a:hover {
   color: #79bbda;
 }
+
+blockquote {
+  color: #435159;
+  font-style: italic;
+}
