@@ -30,6 +30,7 @@ class BlogPostTemplate extends React.Component {
           style={{
             ...scale(-1 / 5),
             display: 'block',
+            color: '#768d99',
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
             color: '#768d99',
@@ -53,7 +54,7 @@ class BlogPostTemplate extends React.Component {
           >
             <img
                     src={author.pic}
-                    alt={`Author profile pic`}
+                    alt={`Author profile image`}
                     style={{
                       marginRight: rhythm(1 / 2),
                       marginBottom: 0,
