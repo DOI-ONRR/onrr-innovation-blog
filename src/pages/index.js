@@ -25,10 +25,14 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
-            <div key={node.fields.slug}>
+            <div 
+              style={{
+                marginBottom: rhythm(1.5),
+              }}
+              key={node.fields.slug}>
               <h2
                 style={{
-                  marginBottom: rhythm(-0.2),
+                  marginBottom: rhythm(-0.1),
                 }}
               >
                 <Link 
