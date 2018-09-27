@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 import './layout.css'
+import Footer from './footer.js'
 import mastImage from './NRRD_blog_mast.png'
 
 class Template extends React.Component {
@@ -81,6 +82,7 @@ class Template extends React.Component {
       )
     }
     return (
+    <div> 
       <div
         style={{
           marginLeft: 'auto',
@@ -92,6 +94,8 @@ class Template extends React.Component {
         {header}
         {children}
       </div>
+     <Footer />
+    </div> 
     )
   }
 }

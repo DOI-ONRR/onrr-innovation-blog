@@ -11,3 +11,7 @@ a:visited {
 a:hover {
   color: #79bbda;
 }
+
+footer {
+  width: 100%;
+}
