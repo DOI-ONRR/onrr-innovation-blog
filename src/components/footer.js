@@ -12,7 +12,6 @@ const Footer = () => (
     <div
       style={{
         marginBottom: '0',
-        maxWidth: '100%',
         padding: '1.45rem 1.0875rem',
       }}
     >
