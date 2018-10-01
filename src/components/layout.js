@@ -83,7 +83,7 @@ class Template extends React.Component {
     }
     return (
     <div> 
-      <div
+      <div class="angle"
         style={{
           marginLeft: 'auto',
           marginRight: 'auto',

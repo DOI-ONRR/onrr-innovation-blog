@@ -5,14 +5,14 @@ const Footer = () => (
   <footer
     style={{
       background: '#086996',
-      height: '200px',
       marginBottom: '0',
     }}
   >
     <div
       style={{
         marginBottom: '0',
-        padding: '1.45rem 1.0875rem',
+        marginLeft: '15%',
+        padding: '7rem 1.0875rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
