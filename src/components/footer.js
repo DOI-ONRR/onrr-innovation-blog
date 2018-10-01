@@ -41,7 +41,7 @@ const Footer = () => (
           display: 'block',
         }}  
       />
-      <h2 style={{ margin: 0 }}>
+      <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -51,22 +51,23 @@ const Footer = () => (
         >
           Information and Data Management
         </Link>
-      </h2>
-      <small
+      </h3>
+      <p
         style={{
+          fontSize: '.8rem',
           color: 'white',
           lineHeight: rhythm(-1),
         }}
       >
-        Office of Natural Resources Revenue <br></br>
-        1849 C Street NW MS 5134 <br></br>
-        Washington, D.C. 20240 <br></br>
+        Office of Natural Resources Revenue <br />
+        1849 C Street NW MS 5134 <br />
+        Washington, D.C. 20240 <br />
         <a
           style={{
             color: 'white',
           }} 
           href="mailto:nrrd@onrr.gov">nrrd@onrr.gov</a>
-      </small>
+      </p>
     </div>
   </footer>
 )
