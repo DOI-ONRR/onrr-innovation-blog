@@ -14,7 +14,10 @@ const Footer = () => (
       style={{
         marginBottom: '0',
         marginLeft: '15%',
-        padding: '7rem 1.0875rem',
+        padding: '7rem 0',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        maxWidth: rhythm(24),
       }}
     >
         <div
