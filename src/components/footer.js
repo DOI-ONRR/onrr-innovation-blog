@@ -42,15 +42,15 @@ const Footer = () => (
         }}  
       />
       <h3 style={{ margin: 0 }}>
-        <Link
-          to="/"
+        <a
+          href="https://www.onrr.gov/"
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
         >
-          Information and Data Management
-        </Link>
+          Office of Natural Resources Revenue
+        </a>
       </h3>
       <p
         style={{
@@ -59,7 +59,7 @@ const Footer = () => (
           lineHeight: rhythm(-1),
         }}
       >
-        Office of Natural Resources Revenue <br />
+        U.S. Department of the Interior <br />
         1849 C Street NW MS 5134 <br />
         Washington, D.C. 20240 <br />
         <a
