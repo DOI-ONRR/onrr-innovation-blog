@@ -24,7 +24,7 @@ class Template extends React.Component {
             textAlign: 'center',
           }}
         >
-                  <Link
+          <Link
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
