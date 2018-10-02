@@ -1,9 +1,8 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# A blog from the Innovation Design Team at the Department of the Interior
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+Our team works on [Natural Resources Revenue Data](https://revenuedata.doi.gov/), an [open data](https://github.com/ONRR/doi-extractives-data) site about how the government manages federal energy and mineral resources, revenue, and disbursements.
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+We built this blog with [GatsbyJS](https://gatsbyjs.org/) using the [`gatsby-starter-blog`](https://github.com/gatsbyjs/gatsby-starter-blog).
 
-## Running in development
-`gatsby develop`
+We use this blog to share our user-centered design and development process.
+
