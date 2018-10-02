@@ -25,3 +25,35 @@ a:hover {
   background-color: #fff;
   z-index: 100000;
 }
+
+/* footer */
+
+.footer-content {
+  margin-bottom: 0;
+  padding: 7rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.footer-img {
+  float: left;
+  padding-right: 1.5rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 400px) {
+  .footer-content {
+    margin-left: 1rem;
+  }
+  .footer-img {
+    float: none;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .footer-contact {
+    text-align: center;
+    margin-left: 2.175rem;
+  }
+}

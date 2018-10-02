@@ -10,22 +10,10 @@ const Footer = () => (
       marginBottom: '0',
     }}
   >
-    <div
-      style={{
-        marginBottom: '0',
-        marginLeft: '15%',
-        padding: '7rem 0',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        maxWidth: rhythm(24),
-      }}
+    <div class='footer-content'
     >
         <div
-          style={{
-            float: 'left',
-            paddingRight: '1.5rem',
-            display: 'block',
-          }}
+          class='footer-img'
         >
           <a href='https://doi.gov/'>
               <img
@@ -33,6 +21,7 @@ const Footer = () => (
                   alt={`Department of the Interior logo`}
                   style={{
                     marginRight: rhythm(1 / 2),
+                    paddingLeft: '7px',
                     margin: 'auto',
                     maxWidth: '130px',
                   }}
@@ -40,6 +29,7 @@ const Footer = () => (
           </a>
         </div>
       <div
+        class='footer-contact'
         style={{
           display: 'block',
         }}  
