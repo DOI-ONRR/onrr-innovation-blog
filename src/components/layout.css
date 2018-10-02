@@ -47,13 +47,13 @@ a:hover {
 
 /* media queries */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 402px) {
   .footer-content {
     margin-left: 1rem;
   }
   .footer-img {
     float: none;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     display: block;
   }
   .footer-contact {

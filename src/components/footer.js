@@ -22,6 +22,7 @@ const Footer = () => (
                   style={{
                     marginRight: rhythm(1 / 2),
                     paddingLeft: '7px',
+                    paddingTop: '2px',
                     margin: 'auto',
                     maxWidth: '130px',
                   }}
