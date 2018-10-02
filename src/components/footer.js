@@ -61,6 +61,20 @@ const Footer = () => (
           }} 
           href="mailto:nrrd@onrr.gov">nrrd@onrr.gov</a>
       </p>
+      <div
+        style={{
+          display: 'block',
+          textAlign: 'center',
+        }}
+        >
+          <em
+            style={{
+              fontWeight: '300',
+              paddingLeft: '7px',
+              color: 'white',
+            }}
+          >From the team that works on <a style={{color: 'white'}} href='https://revenuedata.doi.gov'>Natural Resources Revenue Data</a>.</em>
+        </div>
     </div>
   </footer>
 )
