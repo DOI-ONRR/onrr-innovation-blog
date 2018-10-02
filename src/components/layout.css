@@ -41,6 +41,10 @@ a:hover {
   padding-right: 1.5rem;
 }
 
+.team {
+  text-align: center;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 400px) {
@@ -55,5 +59,8 @@ a:hover {
   .footer-contact {
     text-align: center;
     margin-left: 2.175rem;
+  }
+  .team {
+    text-align: left;
   }
 }

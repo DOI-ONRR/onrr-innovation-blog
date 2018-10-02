@@ -61,10 +61,9 @@ const Footer = () => (
           }} 
           href="mailto:nrrd@onrr.gov">nrrd@onrr.gov</a>
       </p>
-      <div
+      <div class='team'
         style={{
           display: 'block',
-          textAlign: 'center',
         }}
         >
           <em
