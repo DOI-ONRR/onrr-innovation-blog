@@ -72,7 +72,7 @@ const Footer = () => (
               fontWeight: '300',
               color: 'white',
             }}
-          >From the team that works on <a style={{color: 'white'}} href='https://revenuedata.doi.gov'>Natural Resources Revenue Data</a>.</em>
+          >From the team that works on <a style={{color: 'white'}} href='https://revenuedata.doi.gov'>Natural Resources Revenue Data</a></em>
         </div>
     </div>
   </footer>
