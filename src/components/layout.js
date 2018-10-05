@@ -5,14 +5,15 @@ import { rhythm, scale } from '../utils/typography'
 import './layout.css'
 import Footer from './footer.js'
 import mastImage from './NRRD_blog_mast.png'
-
+import Banner from './govbanner.js'
 class Template extends React.Component {
+
   render() {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
-    if (location.pathname === rootPath) {
+    if (location.pathname === rootPath) {  
       header = (
         <h1
           style={{
@@ -82,8 +83,9 @@ class Template extends React.Component {
       )
     }
     return (
-    <div> 
-      <div class="angle"
+    <div>
+      <Banner /> 
+      <main class="angle"
         style={{
           marginLeft: 'auto',
           marginRight: 'auto',
@@ -93,7 +95,7 @@ class Template extends React.Component {
       >
         {header}
         {children}
-      </div>
+      </main>
      <Footer />
     </div> 
     )
