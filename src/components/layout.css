@@ -1,3 +1,24 @@
+/* Banner */
+.banner {
+  padding: .5rem 0 .5rem 0;
+  background-color: #f0f6fa;
+  text-align: center;
+  font-size: .7rem;
+  font-weight: 300;
+}
+
+.banner-centered {
+  color: #435159;
+  text-align: center;
+  display: inline;
+}
+
+.banner-image {
+  padding-left: .7rem;;
+  margin-bottom: -1px;
+  margin-right: 3px;
+}
+
 /* Links */
 a {
   transition: color 0.5s ease;
