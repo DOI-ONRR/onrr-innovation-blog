@@ -4,6 +4,9 @@ authors:
 - Ryan Johnson
 - Jeff Keene
 excerpt: We're moving from Jekyll to GatsbyJS as the static site generator for our open data site. Here's why.
+tags:
+- default
+- boilerplate
 date: "2018-09-24"
 draft: yes
 ---

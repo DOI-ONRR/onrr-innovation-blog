@@ -4,6 +4,9 @@ authors:
 - Ryan Johnson
 - Jennifer Malcolm
 excerpt: The open-data site built by 18F is now part of the Department of the Interior.
+tags:
+- default
+- boilerplate
 date: "2018-10-09"
 ---
 

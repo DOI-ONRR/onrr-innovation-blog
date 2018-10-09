@@ -4,6 +4,9 @@ authors:
 - Ryan Johnson
 - Jennifer Malcolm
 excerpt: This is a hello world post, testing the excerpt.
+tags:
+- default
+- boilerplate
 date: "2015-05-06"
 ---
 

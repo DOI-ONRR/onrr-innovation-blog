@@ -4,6 +4,9 @@ authors:
 - Ryan Johnson
 - Jeff Keene
 excerpt: This is a hello world post, testing the excerpt.
+tags:
+- default
+- boilerplate
 date: "2015-05-01"
 ---
 
