@@ -73,7 +73,27 @@ const Footer = () => (
               color: 'white',
             }}
           >From the team that works on <a style={{color: 'white'}} href='https://revenuedata.doi.gov'>Natural Resources Revenue Data</a></em>
-        </div>
+      </div>
+      <div class='social'>
+        <a href='https://github.com/ONRR/'>
+          <img
+            class='social-icon'
+            src='../img/github.png'
+            alt={`GitHub logo`}
+          /></a>
+          <a href='https://twitter.com/DOIONRR'> 
+          <img
+            class='social-icon'
+            src='../img/twitter.png'
+            alt={`Twitter logo`}
+          /></a>
+          <a href='https://www.facebook.com/DOIONRR/'>  
+          <img
+            class='social-icon'
+            src='../img/facebook.png'
+            alt={`Facebook logo`}
+          /></a>
+      </div>
     </div>
   </footer>
 )
