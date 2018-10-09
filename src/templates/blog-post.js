@@ -25,6 +25,7 @@ class BlogPostTemplate extends React.Component {
             ...scale(1.3),
             lineHeight: '1.1',
             fontWeight: 800,
+            marginBottom: '1.6rem',
           }}
         >{post.frontmatter.title}</h1>
         <p
