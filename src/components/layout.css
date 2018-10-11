@@ -27,7 +27,7 @@
 
 /* Links */
 a {
-  transition: color 0.5s ease;
+  transition: color 0.2s ease;
   color: #086996;
 }
 
@@ -41,6 +41,10 @@ a:hover {
 
 .other-posts a {
   text-decoration: none;
+}
+
+.other-posts a:hover {
+  text-decoration: underline;
 }
 
 /* angle */
