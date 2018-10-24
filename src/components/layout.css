@@ -107,7 +107,7 @@ a:hover {
     text-align: center;
     margin-left: 2.175rem;
   }
-  .team {
+  .team, .social {
     text-align: left;
   }
 }
