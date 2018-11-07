@@ -3,6 +3,7 @@ title: "Update: transitioning Natural Resources Revenue Data"
 authors: 
 - Ryan Johnson
 - Jennifer Malcolm
+- Lindsay Goldstein
 excerpt: The open-data site built by 18F is now part of the Department of the Interior.
 tags:
 - default
