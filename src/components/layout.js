@@ -11,6 +11,8 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
+    const mastText = "Open data design at the U.S. Department of the Interior"
+
     let header
 
     if (location.pathname === rootPath) {  
@@ -33,7 +35,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Innovation design at the Department of the Interior
+            {mastText}
           <img
             src={mastImage}
             alt={`Department of the Interior Bison fenced in angle brackets`}
@@ -77,7 +79,7 @@ class Template extends React.Component {
                   height: rhythm(1.78),
                   display: 'block',
                 }}
-            />Innovation Design at the Department of the Interior
+            />{mastText}
           </Link>
         </h2>
       )
