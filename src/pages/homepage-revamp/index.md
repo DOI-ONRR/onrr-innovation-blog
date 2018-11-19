@@ -32,7 +32,7 @@ Before working on the homepage, we rewrote our product vision to help guide our 
 
 > We are informing policy debates and raising public awareness by building the definitive source of timely and useful data about how the government manages federal energy and mineral resources, revenue and disbursements.
 
-With this vision guiding our priorities, we set up interviews with active and potential users to test our assumptions and discover their needs.
+With this vision laying the groundwork, we set up interviews with active and potential users to test our assumptions and discover their needs.
 
 ## User research
 
