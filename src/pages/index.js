@@ -49,7 +49,11 @@ class BlogIndex extends React.Component {
                   color: '#768d99',
                 }}
               >{node.frontmatter.date}</small>
-              <p>{node.frontmatter.excerpt}</p>
+              <p
+                style={{
+                  marginTop: rhythm(.3),
+                }}
+              >{node.frontmatter.excerpt}</p>
             </div>
           )
         })}

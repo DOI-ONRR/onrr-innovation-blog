@@ -25,6 +25,10 @@ p + h2 {
   margin-bottom: .7rem;
 }
 
+h3, h4, h5 {
+  margin-bottom: .7rem;
+}
+
 /* Blockquote */
 
 blockquote {
