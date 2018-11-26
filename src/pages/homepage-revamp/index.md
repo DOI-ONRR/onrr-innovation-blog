@@ -16,7 +16,7 @@ date: "2018-11-20"
 
 _This is part one of a two-part series about our homepage redesign._
 
-Digital teams from [18F](https://18f.gsa.gov/) and the [Department of the Interior](https://www.doi.gov/) have been publishing government data about energy and mineral extraction on federal lands and waters since 2014. [Natural Resources Revenue Data](https://revenuedata.doi.gov/) continues to provide that open government data.
+Digital teams from [18F](https://18f.gsa.gov/) and the [Department of the Interior](https://www.doi.gov/) have been publishing government data about energy and mineral extraction on federal lands and waters since 2014. The [Natural Resources Revenue Data](https://revenuedata.doi.gov/) portal provides that open government data today.
 
 Back in 2014, 18F built the site to support the federal government's participation in the [Extractive Industries Transparency Initiative](https://eiti.org/) (EITI). While the U.S. government decided to no longer formally implement the EITI Standard in November 2017, the department remains a strong supporter of the principles of transparency represented by the initiative.
 
@@ -28,7 +28,7 @@ Conceived as an interactive version of the EITI annual report, the scope of the 
 
 ![USEITI homepage in 2018, showing an introductory paragraph, a map of the country showing land ownership by state, and a card-styled layout with contextual information](./nrrdhome.png)
 
-We knew we'd need to narrow the scope of the site content, as we have limited resources relative to the EITI era. We also wanted to reevaluate user needs, focus on datasets that only our organization could provide, and make sure we could validate the data.
+We knew we'd need to narrow the scope of the site content, as we have limited resources relative to what we had in the EITI era. We also wanted to reevaluate user needs, focus on datasets that only our organization could provide, and make sure we could validate the data.
 
 Before working on the homepage, we rewrote our product vision to help guide our work:
 
@@ -49,7 +49,7 @@ Equipped with the knowledge that our homepage was valuable to our users, we set 
 - [Storyteller](https://github.com/ONRR/doi-extractives-data/blob/research/research/00_UserTypes/00_UserTypes.md#user-type-3-storyteller)
 - [Domain learner](https://github.com/ONRR/doi-extractives-data/blob/research/research/00_UserTypes/00_UserTypes.md#user-type-4-domain-learner)
 
-![user types mapped on a triangle representing known questions, system understanding, and exploration](https://github.com/ONRR/doi-extractives-data/raw/research/research/00_UserTypes/AllUsers.PNG)
+![user types mapped on one triangle representing known questions, system understanding, and exploration and another triangle representing providing an answer, presenting data, and making a decision ](https://github.com/ONRR/doi-extractives-data/raw/research/research/00_UserTypes/AllUsers.PNG)
 
 ### First round
 
@@ -59,14 +59,18 @@ In addition to making our homepage more in line with our new strategy, we were g
 
 ### Second round
 
-In the [second round of testing](https://github.com/ONRR/doi-extractives-data/blob/research/research/21_obliviousorangutan/Results.md), we wanted to include new users to make sure our additions didn't scare them away because it assumed prior understanding of the data. We also hadn't done extensive testing on the existing homepage with new users. We tested with more domain learners to make sure we were meeting their needs. We learned that we needed to better explain the process on the homepage and explore data page and landed on the best approach for the new key facts summary.
+In the [second round of testing](https://github.com/ONRR/doi-extractives-data/blob/research/research/21_obliviousorangutan/Results.md), we wanted to include new users to make sure our additions didn't scare them away because it assumed prior understanding of the data. We also hadn't done extensive testing on the existing homepage with new users. In addition, we tested with more domain learners to make sure we were meeting their needs. We learned that we needed to better explain the process on the homepage and Explore Data page and landed on the best approach for the new summary information.
 
-![option 1 shows bar charts and a sankey diagram with a map of the U.S., option 2 shows bar charts with a map of the U.S.](./options.jpg)
+![option 1 shows a mix of bar charts and a sankey diagram with a map of the U.S., option 2 shows all bar charts with a map of the U.S.](./options.jpg)
 
 ### Third round
 
-We then [tested 3 concepts](https://github.com/ONRR/doi-extractives-data/blob/research/research/22_QuietQuail/Results.md) with new users for new content on the homepage that explains the process and how the different pieces of data work together. We landed on one concept that worked best and also learned that general-public users are most likely to use the site to explore data related to their geographic area, so the map needed to come before the key facts on the home page.
+We then [tested 3 concepts](https://github.com/ONRR/doi-extractives-data/blob/research/research/22_QuietQuail/Results.md) with new users for new content at the top of the homepage that explains the process and how the different pieces of data work together. We landed on one concept that worked best and also learned that general-public users are most likely to use the site to explore data related to their geographic area, so the map needed to come before the new summary information on the home page.
+
+![round 3 testing with summarized process information](./round3.png)
+
+### Final design
 
 These 3 studies led us to the design we ended up with. It better explains the process and brings boiled-up facts to domain learners.  We will also be making changes to summarize data on the Explore Data page and split up that page to make it easier for both audiences to understand the structure of the site and how the data works based on the findings from these studies.
 
-![round 3 testing with summarized process information](/round3.png)
+![final design with new process at top, map, and new summary information](./FinalHomepage.png)
