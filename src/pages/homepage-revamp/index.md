@@ -28,9 +28,17 @@ Conceived as an interactive version of the EITI annual report, the scope of the 
 
 ![USEITI homepage in 2018, showing an introductory paragraph, a map of the country showing land ownership by state, and a card-styled layout with contextual information](/nrrdhome.png)
 
-We knew we'd need to narrow the scope of the site content, as we have limited resources relative to what we had in the EITI era. We also wanted to reevaluate user needs, focus on datasets that only our organization could provide, and make sure we could validate the data.
+When our team took over management of the site, we knew we'd need to narrow the scope of the content, as we have limited resources relative to the EITI era. We also wanted to reevaluate user needs, focus on datasets that only our organization could provide, and make sure we could validate the data.
 
-Before working on the homepage, we rewrote our product vision to help guide our work:
+## Reframing the site
+
+We completed a full content audit of the site to inventory the content, evaluate readability and maintenance requirements, and determine which content was specific to EITI. 
+
+The audit included a review of a separate site the Office of Natural Resources Revenue was maintaining – albeit through a private contractor – that provided largely the same data. While it included much of the same open data, the site's codebase was proprietary, and it lacked contextual information about the laws, regulations, and processes that govern the extraction of natural resources on federal lands and waters. We decided to conduct an early research round of users of that site to make sure we scoped their needs for future development of Natural Resources Revenue Data. Many of those observations informed our later prototypes and research rounds.
+
+### A new product vision
+
+Before working on the homepage, we rewrote [our product vision](https://github.com/ONRR/doi-extractives-data/wiki/Product-framing) to help guide our work:
 
 > We are informing policy debates and raising public awareness by building the definitive source of timely and useful data about how the government manages federal energy and mineral resources, revenue, and disbursements.
 
@@ -53,28 +61,28 @@ Equipped with the knowledge that our homepage was valuable to our users, we set 
 
 ### First round
 
-In addition to making our homepage more in line with our new strategy, we were getting requests from users who fall into our "domain learner" user type. They were saying they wanted summarized numbers on the homepage so they wouldn't have to dig through the [Explore Data](https://revenuedata.doi.gov/explore/) page to find them. Because of this, we started by testing designs for this on the existing homepage. We [tested 6 options](https://github.com/ONRR/doi-extractives-data/blob/research/research/20_fledglingfox/Results.md) with users matching a variety of user types. We landed on a couple options to test in the second round.
+In addition to making our homepage more in line with our new strategy, we were getting requests from users who fall into our "domain learner" and "question answerer" user types. They wanted summarized numbers on the homepage so they wouldn't have to dig through the [Explore Data](https://revenuedata.doi.gov/explore/) page to find them. We [tested 6 options](https://github.com/ONRR/doi-extractives-data/blob/research/research/20_fledglingfox/Results.md) with users matching a variety of user types. We landed on a couple options to test in the second round.
 
 ![homepage prototypes, we showed 6 prototypes to users, all of the prototypes summarized production, revenue, and disbursements data, one prototype shown is a sankey diagram, which shows the flow of money between its source and what it funds](/homepage-concepts.png)
 
 ### Second round
 
-In the [second round of testing](https://github.com/ONRR/doi-extractives-data/blob/research/research/21_obliviousorangutan/Results.md), we wanted to include new users to make sure our additions didn't scare them away because it assumed prior understanding of the data. We also hadn't done extensive testing on the existing homepage with new users. In addition, we tested with more domain learners to make sure we were meeting their needs. We learned that we needed to better explain the process on the homepage and Explore Data page and landed on the best approach for the new summary information.
+In the [second round of testing](https://github.com/ONRR/doi-extractives-data/blob/research/research/21_obliviousorangutan/Results.md), we included new users to make sure our additions didn't scare away those without a basic understanding of the data. We also hadn't done extensive testing on the existing homepage with new users. In addition, we tested with more domain learners to make sure we were meeting their needs. We learned that we needed to summarily explain the production, revenue, and disbursement process on the homepage and Explore Data page and landed on the best approach for the new summary information.
 
 ![option 1 shows a mix of bar charts and a sankey diagram with a map of the U.S., option 2 shows all bar charts with a map of the U.S.](/options.jpg)
 
 ### Third round
 
-We then [tested 3 concepts](https://github.com/ONRR/doi-extractives-data/blob/research/research/22_QuietQuail/Results.md) with new users for new content at the top of the homepage that explains the process and how the different pieces of data work together. We landed on one concept that worked best and also learned that general-public users are most likely to use the site to explore data related to their geographic area, so the map needed to come before the new summary information on the homepage.
+We then [tested three concepts](https://github.com/ONRR/doi-extractives-data/blob/research/research/22_QuietQuail/Results.md) with additional content at the top of the homepage to explain the data and how the different pieces of data work together. We landed on one concept that worked best and also learned that general-public users are most likely to use the site to explore data related to their geographic area, so the map needed to come before the new summary information on the homepage.
 
 ![round 3 testing with summarized process information](/round3.png)
 
 ### Final design
 
-These 3 studies led us to the design we ended up with. It better explains the process and brings boiled-up facts to domain learners.  We will also be making changes to summarize data on the Explore Data page and split up that page to make it easier for both audiences to understand the structure of the site and how the data works based on the findings from these studies.
+These three studies led us to the design we built. It better explains the process behind the data to those who are not intimately familiar with the subject matter, while also providing high-demand, summary data to domain learners and question answerers. Based on the findings from these studies, we also plan to simplify the structure and navigation of the Explore Data page and make it easier to understand how to intrepret and use the data.
 
 ![final design with new process at top, map, and new summary information](/FinalHomepage.png)
 
 ## Coming in part two
 
-In part two of our series on our homepage redesign, we'll cover how we built our homepage in [GatsbyJS](https://www.gatsbyjs.org/), as we transition the site's codebase from [Jekyll](https://jekyllrb.com/). 
+In part two of our series on our homepage redesign, we'll cover how we built our homepage in [GatsbyJS](https://www.gatsbyjs.org/), as we transition the site's codebase from [Jekyll](https://jekyllrb.com/).
