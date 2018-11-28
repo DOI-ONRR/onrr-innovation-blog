@@ -3,9 +3,9 @@ module.exports = {
     title: 'Innovation design at the Department of the Interior',
     author: 'Ryan Johnson',
     description: 'Our blog about data, design, and innovation at the Department of the Interior.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    siteUrl: 'https://revenuedata.doi.gov/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/blog',
   mapping: {
     "MarkdownRemark.frontmatter.authors": `AuthorYaml`,
   },
