@@ -19,6 +19,26 @@
   margin-right: 3px;
 }
 
+/* Headings */
+
+p + h2 {
+  margin-bottom: .7rem;
+}
+
+h3, h4, h5 {
+  margin-bottom: .7rem;
+}
+
+/* Blockquote */
+
+blockquote {
+  color: #545454;
+  border-left: 2px solid #545454;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+
 /* List items */
 
 .other-posts li {

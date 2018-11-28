@@ -54,7 +54,7 @@ class Template extends React.Component {
       header = (
         <h2
           style={{
-            ...scale(.4),
+            ...scale(.35),
             fontWeight: '800',
             marginTop: 0,
             marginBottom: rhythm(3),
