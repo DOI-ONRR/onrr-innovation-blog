@@ -3,7 +3,7 @@ title: "How we decided to rebuild our open-data homepage"
 authors:
 - Shannon McHarg
 - Ryan Johnson
-excerpt: We're rebuilding the Natural Resources Revenue Data homepage. In this first post about the rebuild, we'll share how a revised product vision and user research led us to the redesign, along with our design priorities and prototyping.
+excerpt: We recently rebuilt the Natural Resources Revenue Data homepage. In this first post about the rebuild, we'll share how a revised product vision and user research led us to the redesign. We'll also share our design priorities and prototypes.
 tags:
 - open data
 - natural resources revenue data
@@ -26,17 +26,23 @@ Our small digital team at the [Office of Natural Resources Revenue](https://www.
 
 ## An interactive annual report
 
-Conceived as an interactive version of the EITI annual report, the scope of the site included data and information about the overall role of extractive industries in the U.S., not just on federal lands and waters. The site's homepage design emphasized contextual information over data presentation, even while offering a strong call to action to explore the data.
+Conceived as an interactive version of the USEITI annual report, the scope of the site included data and information about the overall role of extractive industries in the U.S., not just on federal lands and waters. The site's homepage design emphasized contextual information over data presentation, even while offering a strong call to action to explore the data.
 
 ![USEITI homepage in 2018, showing an introductory paragraph, a map of the country showing land ownership by state, and a card-styled layout with contextual information](./nrrdhome.png)
 
-When our team took over management of the site, we knew we'd need to narrow the scope of the content, as we have limited resources relative to the EITI era. We also wanted to reevaluate user needs, focus on datasets that only our organization could provide, and make sure we could validate the data.
+When our team took over management of the site, we knew we'd need to narrow the scope of the content, as we have limited resources relative to the EITI era. We also wanted to reevaluate user needs, focus on datasets only our organization could provide, and make sure we could validate the data.
+
+### A data-only site
+
+The Office of Natural Resources Revenue also maintained a separate "statistics" site – by way of a private contractor – that provided largely the same data as the USEITI site. While it included much of the same open data, the site's codebase was proprietary, and it lacked contextual information about the laws, regulations, and processes that govern the extraction of natural resources on federal lands and waters. This site was effective at presenting data, but it assumed users were already familiar with the context and processes behind the data.
+
+We decided to conduct an early research round of this site's users to make sure we scoped their needs for future development of Natural Resources Revenue Data, understanding we would combine the two sites to limit redundancy. Many of those observations informed our later prototypes and research rounds.
 
 ## Reframing the site
 
-We completed a full content audit of the site to inventory the content, evaluate readability and maintenance requirements, and determine which content was specific to EITI. 
+We completed a full content audit of the site to generate a site inventory, evaluate readability and maintenance requirements, and determine which content was specific to USEITI.
 
-The audit included a review of a separate site the Office of Natural Resources Revenue was maintaining – albeit through a private contractor – that provided largely the same data. While it included much of the same open data, the site's codebase was proprietary, and it lacked contextual information about the laws, regulations, and processes that govern the extraction of natural resources on federal lands and waters. We decided to conduct an early research round of users of that site to make sure we scoped their needs for future development of Natural Resources Revenue Data. Many of those observations informed our later prototypes and research rounds.
+Reviewing the content, we realized we needed to reframe our vision of the site to make sure we could deliver the most value to users.
 
 ### A new product vision
 
