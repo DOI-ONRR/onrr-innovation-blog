@@ -9,11 +9,12 @@ tags:
 - natural resources revenue data
 - gatsbyjs
 - user research
+- user experience
 - design
 - data visualization
 - prototypes
 - product framing
-date: "2018-11-20"
+date: "2018-12-01"
 ---
 
 _This is part one of a two-part series about our homepage redesign._
