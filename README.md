@@ -6,3 +6,4 @@ We built this blog with [GatsbyJS](https://gatsbyjs.org/) using the [`gatsby-sta
 
 We use this blog to share our user-centered design and development process.
 
+_We've archived this repository, as we've migrated the blog into the [doi-extractives-data](https://github.com/ONRR/doi-extractives-data) repository._
